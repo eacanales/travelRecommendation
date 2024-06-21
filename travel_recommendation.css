@@ -14,6 +14,18 @@ nav {
     justify-content: space-between;
     
   }
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espacio entre el logo-título y el menú */
+}
+  
+.logo {
+    width: 55px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}  
   
   nav ul {
     list-style-type: none;
