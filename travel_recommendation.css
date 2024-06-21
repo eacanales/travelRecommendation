@@ -34,8 +34,9 @@ nav {
   
   /* Basic CSS for the form elements */
   body {
+    background-image: 
+    url("Downtown-Miami.avif");
     font-family: Arial, sans-serif;
-    /* margin: 20px; */
   }
   
   h1 {
