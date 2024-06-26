@@ -119,19 +119,39 @@ nav {
     background-color: #45a049;
   }
   
-  /* Basic CSS for the report section */
-  h2 {
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-facebook {
+    width: 10px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-right: 120px; /* Espacio entre el logo y el texto */
+}
+
+.social-instagram {
+    width: 10px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-right: 120px; /* Espacio entre el logo y el texto */    
+}
+
+
+
+/* Basic CSS for the report section */
+h2 {
     margin-top: 100px;
     color: white;
     font-size: 50px;
-    padding: 150px;
-    }
+    padding: 0px 150px;
+}
 
   h3 {
     margin-top: -110px;
     color: white;
     font-size: 15px;
-    padding: 0px 150px;
+    padding: 100px 150px;
     font-family: 'Times New Roman', Times, serif; 
     font-style: italic; 
     }
