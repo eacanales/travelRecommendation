@@ -137,24 +137,44 @@ p {
     }
 
 .social-icons {
+  position: fixed;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.social-icons ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.side-nav ul li img {
+  width: 10px;
+  height: 10px;
+}
+
+
+/*    
+.social-icons {
     display: flex;
     flex-direction: column;
-    align-items: left; /* check it, left is not correct */
+    align-items: left; /* check it, left is not correct 
     gap : 10px;
 }
     
 .social-facebook {
-    width: 10 px; /* Ajusta el tamaño del logo según sea necesario */
+    width: 10 px; /* Ajusta el tamaño del logo según sea necesario 
     height: auto;
-    /*margin-right: 10px; /* Espacio entre el logo y el texto */
+    /*margin-right: 10px; /* Espacio entre el logo y el texto 
 }
     
 .social-instagram {
-    width: 10px; /* Ajusta el tamaño del logo según sea necesario */
+    width: 10px; /* Ajusta el tamaño del logo según sea necesario 
     height: auto;
-    /* margin-right: 120px; /* Espacio entre el logo y el texto */    
-}    
-
+    /* margin-right: 120px; /* Espacio entre el logo y el texto     
+}*/
 
 
   #report,#result {
