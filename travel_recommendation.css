@@ -121,7 +121,7 @@ nav {
   
 /* Basic CSS for the report section */
 h2 {
-    margin-top: 100px;
+    margin-top: 180px;
     color: white;
     font-size: 50px;
     padding: 0px 180px;
@@ -136,23 +136,26 @@ p {
     font-style: italic; 
     }
 
+/* CSS Social logo. Vertical position */  
 .social-icons {
   position: fixed;
-  top: 50%;
-  left: 20px;
+  top: 60%;
+  left: 8px;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .social-icons ul {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 8px;
 }
 
-.side-nav ul li img {
-  width: 10px;
-  height: 10px;
+.social-icons ul li img {
+  width: 35px;
+  height: 35px;
 }
 
 
