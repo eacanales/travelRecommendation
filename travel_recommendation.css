@@ -127,8 +127,8 @@ h2 {
     padding: 0px 180px;
 }
 
-h3 {
-    margin-top: -110px;
+p {
+    margin-top: -100px;
     color: white;
     font-size: 15px;
     padding: 100px 180px;
@@ -139,21 +139,21 @@ h3 {
 .social-icons {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: left; /* check it, left is not correct */
     gap : 10px;
 }
     
 .social-facebook {
-    width: 55 px; /* Ajusta el tamaño del logo según sea necesario */
+    width: 10 px; /* Ajusta el tamaño del logo según sea necesario */
     height: auto;
     /*margin-right: 10px; /* Espacio entre el logo y el texto */
 }
     
-    .social-instagram {
-        width: 1px; /* Ajusta el tamaño del logo según sea necesario */
-        height: auto;
-        /* margin-right: 120px; /* Espacio entre el logo y el texto */    
-    }    
+.social-instagram {
+    width: 10px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    /* margin-right: 120px; /* Espacio entre el logo y el texto */    
+}    
 
 
 
