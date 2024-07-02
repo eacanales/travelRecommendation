@@ -127,7 +127,7 @@ nav {
 .explore {
     margin-top: 100px;
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     padding: 100px 180px;
     font-family: 'Arial', Times, serif;
     font-style: normal   
@@ -180,7 +180,7 @@ nav {
 .about {
     margin-top: -30px;
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     padding: 100px 180px;
     font-family: 'Arial', Times, serif;
     font-style: normal  
@@ -199,7 +199,7 @@ nav {
     margin-top: -50px;
     text-align: left;
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     padding: 100px 220px;
     font-family: 'Arial', Times, serif;
     font-style: normal  
@@ -212,7 +212,7 @@ nav {
 }
 
 .transpa ul {
-    margin-top: -90px;
+    margin-top: -150px;
     display: flex;
     flex-direction: row;
     padding: 0px 780px;
