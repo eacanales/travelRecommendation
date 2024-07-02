@@ -175,7 +175,7 @@ nav {
   height: 35px;
 }
 
-/* About section */
+/* About Section */
 
 .about {
     margin-top: 20px;
@@ -194,6 +194,26 @@ nav {
     font-family: 'Arial', Times, serif; 
     font-style: normal; 
 } 
+
+.team {
+    margin-top: -130px;
+    color: white;
+    font-size: 40px;
+    padding: 100px 250px;
+    font-family: 'Arial', Times, serif;
+    font-style: normal  
+}
+
+.btnBook {
+    padding: 15px 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-left: 180px;
+    border-radius: 25px; /* Fully rounded button */    
+}
+
 
 
   #report,#result {
@@ -214,4 +234,33 @@ nav {
     height: 100px;
   }
 
-  
+/*  
+  .btnCEO {
+    padding: 15px 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-left: 180px;
+    border-radius: 25px; /* Fully rounded button     
+}
+
+.btnTeamLead {
+    padding: 15px 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-left: 180px;
+    border-radius: 25px; /* Fully rounded button   
+} 
+
+.btnDeliveryHead {
+    padding: 15px 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-left: 180px;
+    border-radius: 25px; /* Fully rounded button   
+} */
