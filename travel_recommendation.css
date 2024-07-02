@@ -123,14 +123,14 @@ nav {
   }
   
 /* Basic CSS for the report section */
-h2 {
+.explore {
     margin-top: 180px;
     color: white;
     font-size: 50px;
     padding: 0px 180px;
 }
 
-p {
+.intro {
     margin-top: -70px;
     color: white;
     font-size: 15px;
@@ -174,25 +174,8 @@ p {
 }
 
 
-/*    
-.social-icons {
-    display: flex;
-    flex-direction: column;
-    align-items: left; /* check it, left is not correct 
-    gap : 10px;
-}
-    
-.social-facebook {
-    width: 10 px; /* Ajusta el tamaño del logo según sea necesario 
-    height: auto;
-    /*margin-right: 10px; /* Espacio entre el logo y el texto 
-}
-    
-.social-instagram {
-    width: 10px; /* Ajusta el tamaño del logo según sea necesario 
-    height: auto;
-    /* margin-right: 120px; /* Espacio entre el logo y el texto     
-}*/
+/* About section */
+
 
 
   #report,#result {
