@@ -173,9 +173,23 @@ nav {
   height: 35px;
 }
 
-
 /* About section */
 
+.about {
+    margin-top: 180px;
+    color: white;
+    font-size: 50px;
+    padding: 0px 180px;
+}
+
+.welcome {
+    margin-top: -70px;
+    color: white;
+    font-size: 15px;
+    padding: 100px 180px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+} 
 
 
   #report,#result {
