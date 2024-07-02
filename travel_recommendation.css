@@ -84,6 +84,7 @@ nav {
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen de fondo */
     /*font-family: Arial, sans-serif;*/
+    background-attachment: fixed;
   }
   
   h1 {
@@ -124,22 +125,23 @@ nav {
   
 /* Basic CSS for the report section */
 .explore {
-    margin-top: 180px;
+    margin-top: 100px;
     color: white;
     font-size: 50px;
-    padding: 0px 180px;
+    padding: 100px 180px;
+    font-family: 'Arial', Times, serif;
+    font-style: normal   
 }
-
+    
 .intro {
-    margin-top: -70px;
+    margin-top: -180px;
     color: white;
     font-size: 15px;
-    padding: 100px 180px;
-    font-family: 'Times New Roman', Times, serif; 
-    font-style: italic; 
+    padding: 110px 180px;
+    font-family: 'Arial', Times, serif; 
+    font-style: normal; 
 }    
     
-
 .btnBook {
     padding: 15px 30px;
     border: none;
@@ -176,19 +178,21 @@ nav {
 /* About section */
 
 .about {
-    margin-top: 180px;
+    margin-top: 20px;
     color: white;
     font-size: 50px;
-    padding: 0px 180px;
+    padding: 100px 180px;
+    font-family: 'Arial', Times, serif;
+    font-style: normal  
 }
 
 .welcome {
-    margin-top: -70px;
+    margin-top: -180px;
     color: white;
     font-size: 15px;
-    padding: 100px 180px;
-    font-family: 'Times New Roman', Times, serif; 
-    font-style: italic; 
+    padding: 110px 200px;
+    font-family: 'Arial', Times, serif; 
+    font-style: normal; 
 } 
 
 
