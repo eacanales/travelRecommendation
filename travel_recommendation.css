@@ -197,14 +197,34 @@ nav {
 
 .team {
     margin-top: -130px;
+    text-align: left;
     color: white;
-    font-size: 40px;
-    padding: 100px 250px;
+    font-size: 50px;
+    padding: 100px 220px;
     font-family: 'Arial', Times, serif;
     font-style: normal  
 }
 
-.btnBook {
+.transpa {
+    background-color: rgba(0, 0, 0, 0.5); /* transparencia */
+    padding: 15px 10px;
+    /*border-radius: 10px;*/
+}
+
+.transpa ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 980px;
+    gap: 200px;
+  }
+
+.transpa ul li id {
+    width: 100px;
+    height: 100px;
+  }
+
+
+  .btnBook {
     padding: 15px 30px;
     border: none;
     background-color: #4CAF50;
