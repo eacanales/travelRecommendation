@@ -178,7 +178,7 @@ nav {
 /* About Section */
 
 .about {
-    margin-top: 20px;
+    margin-top: -30px;
     color: white;
     font-size: 50px;
     padding: 100px 180px;
@@ -196,7 +196,7 @@ nav {
 } 
 
 .team {
-    margin-top: -130px;
+    margin-top: -50px;
     text-align: left;
     color: white;
     font-size: 50px;
@@ -212,18 +212,25 @@ nav {
 }
 
 .transpa ul {
+    margin-top: -90px;
     display: flex;
     flex-direction: row;
-    padding: 0px 980px;
+    padding: 0px 780px;
     gap: 200px;
   }
 
-.transpa ul li id {
-    width: 100px;
-    height: 100px;
-  }
+.transpa ul li button {
+    padding: 10px 20px; /* Espacio interno del botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    white-space: nowrap; /* Evita que el texto se envuelva */
+    width: auto; /* Ajusta el ancho automáticamente */
+    display: inline-block; /* Asegura que el botón se ajuste al contenido */
+    width: 180px; /* Ancho fijo para todos los botones */
+    height: 40px; /* Altura fija para todos los botones */
+}   
 
-
+  
   .btnBook {
     padding: 15px 30px;
     border: none;
