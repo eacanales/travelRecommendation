@@ -242,12 +242,10 @@ nav {
     /*padding-top: 50px;*/
     /*background-color: lightgray; /* Color de fondo del contenedor */
     /*gap: 10px;*/
-    margin: 0px 0px 0px 500px;
+    margin: 0px 0px 0px 150px;
     border-style: dotted;
-    height: 150px;
-    width: 900px;
-
-    
+    height: 200px;
+    width: 1300px;    
 }
 
 .logo-item {
@@ -255,8 +253,10 @@ nav {
     flex-direction: column;
     /*align-items: center;*/
     gap: 20px;
-    margin-right: 200px;
-    /*margin-top: 50;*/
+    margin-right: 240px;
+    border-style: dotted;
+    width: 330px;
+    
     
 }
 
