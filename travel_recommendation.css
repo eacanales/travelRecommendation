@@ -228,7 +228,16 @@ nav {
     display: inline-block; /* Asegura que el botón se ajuste al contenido */
     width: 180px; /* Ancho fijo para todos los botones */
     height: 40px; /* Altura fija para todos los botones */
-}   
+}  
+
+.logo-section {
+    display: flex;
+    flex-direction: row; /* Cambia la dirección a horizontal */
+    justify-content: space-around; /* Espacio entre los logos */
+    align-items: center; /* Centra verticalmente */
+    padding: 20px;
+    /*background-color: lightgray; /* Color de fondo del contenedor */
+}
 
 .logo-item {
     display: flex;
