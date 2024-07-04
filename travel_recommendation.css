@@ -233,18 +233,19 @@ nav {
 .logo-section {
     display: flex;
     flex-direction: row; /* Cambia la dirección a horizontal */
-    justify-content: flex-start; /* Espacio entre los logos */
-    align-items: center; /* Centra verticalmente */
-    padding: 20px;
+    /*justify-content: flex-start; /* Espacio entre los logos */
+    /*align-items: center; /* Centra verticalmente */
+    padding-left: 690px;
     /*background-color: lightgray; /* Color de fondo del contenedor */
+    /*gap: 10px;*/
 }
 
 .logo-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    margin-right: 150px;
+    /*align-items: center;*/
+    /*gap: 10px;*/
+    margin-right: 226px;
 }
 
 .logo {
