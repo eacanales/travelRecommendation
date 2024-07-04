@@ -233,7 +233,7 @@ nav {
 .logo-section {
     display: flex;
     flex-direction: row; /* Cambia la dirección a horizontal */
-    justify-content: space-around; /* Espacio entre los logos */
+    justify-content: flex-start; /* Espacio entre los logos */
     align-items: center; /* Centra verticalmente */
     padding: 20px;
     /*background-color: lightgray; /* Color de fondo del contenedor */
@@ -243,11 +243,12 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
+    margin-right: 150px;
 }
 
 .logo {
-    width: 100px;
+    width: 90px;
     height: auto;
 }
 
