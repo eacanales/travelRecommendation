@@ -242,9 +242,10 @@ nav {
     /*padding-top: 50px;*/
     /*background-color: lightgray; /* Color de fondo del contenedor */
     /*gap: 10px;*/
-    margin: 150px;
+    margin: 0px 0px 0px 500px;
     border-style: dotted;
     height: 150px;
+    width: 900px;
 
     
 }
