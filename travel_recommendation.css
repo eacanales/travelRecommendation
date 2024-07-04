@@ -162,6 +162,7 @@ nav {
   background-color: rgba(0, 0, 0, 0);
   padding: 10px;
   border-radius: 10px;
+  border-style: dotted;
 }
 
 .social-icons ul {
@@ -200,16 +201,18 @@ nav {
     text-align: left;
     color: white;
     font-size: 60px;
-    padding: 100px 220px;
+    padding: 0px 0px 0px 220px;
     font-family: 'Arial', Times, serif;
-    font-style: normal  
+    font-style: normal;
+    border-style: dotted;
+    width: 450px;
 }
 
-.transpa {
+/*.transpa {
     background-color: rgba(0, 0, 0, 0.5); /* transparencia */
     /*padding: 15px 10px 15px 10px;*/
-    /*border-radius: 10px;*/
-}
+    /*border-radius: 10px;
+}*/
 
 .transpa ul {
     margin-top: -150px;
@@ -235,10 +238,15 @@ nav {
     flex-direction: row; /* Cambia la dirección a horizontal */
     /*justify-content: flex-start; /* Espacio entre los logos */
     /*align-items: center; /* Centra verticalmente */
-    padding-left: 690px;
+    padding-left: 450px;
     /*padding-top: 50px;*/
     /*background-color: lightgray; /* Color de fondo del contenedor */
     /*gap: 10px;*/
+    margin: 150px;
+    border-style: dotted;
+    height: 150px;
+
+    
 }
 
 .logo-item {
@@ -246,7 +254,7 @@ nav {
     flex-direction: column;
     /*align-items: center;*/
     gap: 20px;
-    margin-right: 230px;
+    margin-right: 200px;
     /*margin-top: 50;*/
     
 }
@@ -293,33 +301,3 @@ nav {
     height: 100px;
   }
 
-/*  
-  .btnCEO {
-    padding: 15px 30px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-    margin-left: 180px;
-    border-radius: 25px; /* Fully rounded button     
-}
-
-.btnTeamLead {
-    padding: 15px 30px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-    margin-left: 180px;
-    border-radius: 25px; /* Fully rounded button   
-} 
-
-.btnDeliveryHead {
-    padding: 15px 30px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-    margin-left: 180px;
-    border-radius: 25px; /* Fully rounded button   
-} */
