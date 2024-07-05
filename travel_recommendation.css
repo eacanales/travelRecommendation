@@ -76,7 +76,8 @@ nav {
 }
 
 
-  /* Basic CSS for the form elements */
+/* Basic CSS for the form elements */
+
   body {
     background-image: 
     url("Downtown-Miami.avif");
@@ -124,6 +125,7 @@ nav {
   }
   
 /* Basic CSS for the report section */
+
 .explore {
     margin-top: 100px;
     color: white;
@@ -132,7 +134,7 @@ nav {
     font-family: 'Arial', Times, serif;
     font-style: normal   
 }
-    
+
 .intro {
     margin-top: -180px;
     color: white;
@@ -197,11 +199,11 @@ nav {
 } 
 
 .team {
-    margin-top: -50px;
-    text-align: left;
+    margin: -50px 0px 0px 100px;   
+    text-align: center;
     color: white;
     font-size: 60px;
-    padding: 0px 0px 0px 220px;
+    padding: 0px 0px 0px 120px;
     font-family: 'Arial', Times, serif;
     font-style: normal;
     border-style: dotted;
@@ -233,19 +235,27 @@ nav {
     height: 40px; /* Altura fija para todos los botones */
 }  
 
+/* Logo TravelBloom */
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+/* Logo members */
 .logo-section {
     display: flex;
     flex-direction: row; /* Cambia la dirección a horizontal */
     /*justify-content: flex-start; /* Espacio entre los logos */
     /*align-items: center; /* Centra verticalmente */
-    padding-left: 450px;
+    padding-left: 10px;
     /*padding-top: 50px;*/
     /*background-color: lightgray; /* Color de fondo del contenedor */
     /*gap: 10px;*/
-    margin: 0px 0px 0px 150px;
+    margin: -130px 0px 0px 600px;
     border-style: dotted;
-    height: 200px;
-    width: 1300px;    
+    height: fit-content;
+    width: 1300px;
+    gap: 150px;    
 }
 
 .logo-item {
@@ -253,24 +263,19 @@ nav {
     flex-direction: column;
     /*align-items: center;*/
     gap: 20px;
-    margin-right: 240px;
+    /*margin-right: 240px;*/
     border-style: dotted;
-    width: 330px;
-    
-    
-}
-
-.logo {
-    width: 90px;
-    height: auto;
-}
+    height: fit-content;
+    width: fit-content;
 
 .logo-name {
     font-size: 16px;
     font-family: Arial, sans-serif;
-    color: white
+    color: white;
+    border-style: dotted;
+    width: fit-content;
+    
 }
-
 
   .btnBook {
     padding: 15px 30px;
