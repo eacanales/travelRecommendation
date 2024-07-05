@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About</title>
+  <title> Contact Us </title>
   <link rel="stylesheet" href="./travel_recommendation.css">
 </head>
 <body>
@@ -36,9 +36,48 @@
         <h1 class="contact"> CONTACT US </h1>
         <p class="touch"> Get in touch </p>
     </div>
-    
+
+    <style>
         
-    
+        /* Some basic styling for demonstration purposes */
+        #contactForm {
+          max-width: 800px;
+          margin: -300px 0px 0px 900px;
+        }
+        #contactForm input,
+        #contactForm textarea {
+          width: 100%;
+          margin-bottom: 15px;
+          padding: 8px;
+        }
+        #contactForm button {
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          cursor: pointer;
+        }
+        #contactForm button:hover {
+          background-color: #0056b3;
+        }
+    </style>
+
+    <form id="contactForm">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="10" required></textarea>
+        </div>
+        <button type="submit" onclick="thankyou()">Submit</button>
+      </form>
+          
 </body>
 </html>
 
