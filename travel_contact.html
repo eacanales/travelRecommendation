@@ -42,38 +42,59 @@
         /* Some basic styling for demonstration purposes */
         #contactForm {
           max-width: 800px;
-          margin: -300px 0px 0px 900px;
+          margin: -300px 0px 0px 900px;   
         }
+        #contactForm input{
+          /*width: 300px;*/
+          /*padding: 10px;*/
+          border: 2px solid #4CAF50;
+          border-radius: 25px;
+          outline: none;
+        }
+
         #contactForm input,
         #contactForm textarea {
+          font-size: 15px;
+          color: white;
           width: 100%;
           margin-bottom: 15px;
           padding: 8px;
+          background-color: rgba(0, 0, 0, 0.4);
         }
-        #contactForm button {
-          padding: 10px 20px;
-          background-color: #007bff;
+
+        /* Cambia el color del texto a blanco para los labels de name, email y message */
+        #contactForm label {
           color: white;
+          font-size: 25px;
+          
+        }
+
+        #contactForm button {
+          width: 800px;
+          padding: 10px 20px;
+          background-color: green;
+          border-radius: 10px;
           border: none;
           cursor: pointer;
         }
-        #contactForm button:hover {
+
+        /*#contactForm button:hover {
           background-color: #0056b3;
-        }
+        }*/
     </style>
 
     <form id="contactForm">
         <div>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
+          <label for="name">Name :</label>
+          <input type="text" id="name" placeholder="Enter your name" name="name" required>
         </div>
         <div>
-          <label for="email">Email</label>
-          <input type="email" id="email" name="Email" required>
+          <label for="email">Email :</label>
+          <input type="email" id="email" placeholder="Enter your E-mail" name="Email" required>
         </div>
         <div>
           <label for="message">Message</label>
-          <textarea id="message" name="message" rows="10" required></textarea>
+          <textarea id="message" placeholder="Enter your message" name="message" rows="10" required></textarea>
         </div>
         <button type="submit" onclick="thankyou()">Submit</button>
       </form>
