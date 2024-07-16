@@ -17,7 +17,7 @@
             <li><a href="./travel_about.html" id="about">About Us </a><li>
             <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>  
             <li><input type="text" id="conditionInput" placeholder="Enter a destination or keyword"></li>
-            <li><button id='btnSearch'>Search</button></li>
+            <li><button type="submit" id='btnSearch'>Search</button></li>
             <li><button id='btnReset'>Clear</button></li>
         </ul>
     </nav>
@@ -49,6 +49,18 @@
         </p>
         <button class='btnBook'>BOOK NOW</button>    
     </div>
+    <!-- Recommendation -->
+    <div>
+        <label for="recommendation">Recommendation:</label>
+        <select id="recommendation">
+          <option value="">Select recommendation</option>
+          <option value="beach">beach</option>
+          <option value="temple">temple</option>
+          <option value="country">country</option>
+        </select>
+    </div> 
 
+    <div id="searchInfo"></div>
+<script src="./travel_recommendation.js"></script>
 </body>
 </html>
