@@ -1,32 +1,37 @@
-document.getElementById('conditionInput').addEventListener('submit',showcountryDetails);
+const btnSearch = document.getElementById('btnSearch');
 
-function showcountryDetails(event) {
-    event.preventDefault();
+function searchRecomm() {
+    const input = document.getElementById('conditionInput').value.toLowerCase();
+    const resultDiv = document.getElementById('result');
+    resultDiv.innerHTML = '';
 
-        const conditionalInput = document.getElementById('conditionInput').value;
         // Ruta al archivo local
         const filePath = `https://eacanales-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/travelRecommendation/travel_recommendation_api.json`;
-
-        // Carga el archivo local
         fetch(filePath)
             .then(response => response.json())
             .then(data => {
-                const searchInfo = document.getElementById('searchInfo');
-                if (searchInfo === country){
-                    searchInfo.innerHTML = `<h2>Information requested by searchInfo</h2>
-                                            <img src="sydney-australia.jpeg" alt="Australia" class="australia">`
+                const country = data.countries.find(item => item.name.toLowerCase() === input);
+                /*const city = data.countries.cities.name;*/
+
+                if (country) {
+                    
+
+                    resultDiv.innerHTML += `<h2>${country.name}</h2>`;
+                    /*resultDiv.innerHTML += `<h2>${city.name}</h2>`;*/
+                    resultDiv.innerHTML += `<img src="${country.imageUrl}" alt="${country.name}">`;
+                    resultDiv.innerHTML += `<p><strong>TEST: </strong> test </p>`;
 
                 } else {
-                alert('try again');
-            }
+                  resultDiv.innerHTML = 'Condition not found.';
+                }
     
-    }
-)
-
-
-
-
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                resultDiv.innerHTML = 'An error ocurred while fetching data';
+            });
 
 }
 
+btnSearch.addEventListener('click', searchRecomm);
 
