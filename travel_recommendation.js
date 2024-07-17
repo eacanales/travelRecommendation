@@ -1,3 +1,5 @@
+/* This version of JS is working */
+
 const btnSearch = document.getElementById('btnSearch');
 
 function searchRecomm() {
