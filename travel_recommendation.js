@@ -1,12 +1,13 @@
 /* This version of JS is working */
 
 const btnSearch = document.getElementById('btnSearch');
+const btnReset = document.getElementById('btnReset');
 
 function searchRecomm() {
   const input = document.getElementById('conditionInput').value.toLowerCase();
   const resultDiv = document.getElementById('result');
   resultDiv.innerHTML = '';
-
+  
   // Ruta al archivo local
   const filePath = `travel_recommendation_api.json`;
   fetch(filePath)
@@ -39,4 +40,12 @@ function searchRecomm() {
 
 btnSearch.addEventListener('click', searchRecomm);
 
+function clearRecomm() {
+    const resultDiv = document.getElementById('result');
+    resultDiv.innerHTML = '';  
+    const input = document.getElementById('conditionInput');
+    input.value = '';
+}
+
+btnReset.addEventListener('click', clearRecomm)
 
