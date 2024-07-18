@@ -149,7 +149,30 @@ nav {
     margin-left: 180px;
     border-radius: 25px; /* Fully rounded button */    
 }
-     
+
+/* Recommendation */
+
+.search-Recomm {
+    /*border-style: dotted;*/
+    text-align: center;
+    color: white;
+    font-family: 'Arial', Times, serif;
+    font-style: normal; 
+    margin: -550px 300px 0px 900px;
+    padding-left: 30px;
+
+#result{
+    text-align: center;
+    /*border-style: dotted;*/
+    margin-left: 150px;
+    padding-left: 0px;
+    font-family: 'Arial', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+}
+
 /* CSS Social logo. Vertical position */  
 .social-icons {
   position: fixed;

@@ -8,7 +8,7 @@ function searchRecomm() {
   resultDiv.innerHTML = '';
 
   // Ruta al archivo local
-  const filePath = `https://eacanales-5500.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/travelRecommendation/travel_recommendation_api.json`;
+  const filePath = `travel_recommendation_api.json`;
   fetch(filePath)
     .then(response => response.json())
     .then(data => {
