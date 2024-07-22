@@ -125,17 +125,18 @@ nav {
 .explore {
     margin-top: 100px;
     color: white;
-    font-size: 70px;
-    padding: 100px 180px;
+    font-size: 60px;
+    padding: 100px 100px;
     font-family: 'Arial', Times, serif;
-    font-style: normal   
+    font-style: normal;  
+    /*border-style : dotted*/
 }
 
 .intro {
     margin-top: -180px;
     color: white;
     font-size: 15px;
-    padding: 110px 180px;
+    padding: 110px 100px;
     font-family: 'Arial', Times, serif; 
     font-style: normal; 
 }    
@@ -202,7 +203,7 @@ nav {
     margin-top: -30px;
     color: white;
     font-size: 70px;
-    padding: 100px 180px;
+    padding: 100px 100px;
     font-family: 'Arial', Times, serif;
     font-style: normal  
 }
@@ -211,20 +212,20 @@ nav {
     margin-top: -180px;
     color: white;
     font-size: 15px;
-    padding: 110px 200px;
+    padding: 110px 100px;
     font-family: 'Arial', Times, serif; 
     font-style: normal; 
 } 
 
 .team {
-    margin: -50px 0px 0px 100px;   
+    margin: -30px 0px 0px 20px;   
     text-align: center;
     color: white;
     font-size: 60px;
-    padding: 0px 0px 0px 120px;
+    padding: 0px 0px 0px 0px;
     font-family: 'Arial', Times, serif;
     font-style: normal;
-    /*border-style: dotted;*/
+    border-style: dotted;
     width: 450px;
 }
 
@@ -245,14 +246,14 @@ nav {
     height: fit-content;
     width: 1300px;
     gap: 180px;
-    /*border-style: dotted;*/    
+    border-style: dotted;    
 }
 
 .employee-item {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /*border-style: dotted;*/
+    border-style: dotted;
     height: fit-content;
     width: 150px;
     border-radius: 25px; /* Fully rounded button */
