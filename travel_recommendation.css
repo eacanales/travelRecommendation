@@ -159,7 +159,7 @@ nav {
     color: white;
     font-family: 'Arial', Times, serif;
     font-style: normal; 
-    margin: -550px 300px 0px 900px;
+    margin: -550px 300px 0px 400px;
     padding-left: 30px;
 
 #result{
@@ -225,7 +225,7 @@ nav {
     padding: 0px 0px 0px 0px;
     font-family: 'Arial', Times, serif;
     font-style: normal;
-    border-style: dotted;
+    /*border-style: dotted;*/
     width: 450px;
 }
 
@@ -245,15 +245,15 @@ nav {
     /*border-style: dotted;*/
     height: fit-content;
     width: 1300px;
-    gap: 180px;
-    border-style: dotted;    
+    gap: 100px;
+    /*border-style: dotted;*/    
 }
 
 .employee-item {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border-style: dotted;
+    /*border-style: dotted;*/
     height: fit-content;
     width: 150px;
     border-radius: 25px; /* Fully rounded button */
@@ -318,8 +318,8 @@ nav {
 .contact {
     margin: 300px 1200px 0px 100px;
     color: white;
-    font-size: 70px;
-    padding: 10px 20px 10px 80px;
+    font-size: 50px;
+    padding: 10px 20px 10px 0px;
     font-family: 'Arial', Times, serif;
     font-style: normal;  
     /*border-style: dotted;*/
@@ -329,7 +329,7 @@ nav {
     margin: 20px 1200px 0px 100px;
     color: white;
     font-size: 20px;
-    padding: 20px 20px 20px 80px;
+    padding: 20px 20px 20px 0px;
     font-family: 'Arial', Times, serif; 
     font-style: normal; 
     /*border-style: dotted;*/
